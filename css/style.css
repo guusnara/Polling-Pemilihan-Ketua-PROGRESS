@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face	{
+	src:url(../fonts/Oswald-Regular.otf) format('truetype');
+	src:url(../fonts/Oswald-Regular.eot);
+	src:url(../fonts/Oswald-Regular.eot?#iefix) format('embedded-opentype'),
+		url(../fonts/Oswald-Regular.woff) format('woff'),
+		url(../fonts/Oswald-Regular.ttf) format('truetype'),
+		url(../fonts/Oswald-Regular.svg#webfont) format('svg');
+	font-family:"Oswald";
+	font-weight:normal;
+}
+@font-face	{
+	src:url(../fonts/BEBAS.eot);
+	src:url(../fonts/BEBAS.eot?#iefix) format('embedded-opentype'),
+		url(../fonts/BEBAS.woff) format('woff'),
+		url(../fonts/BEBAS.ttf) format('truetype'),
+		url(../fonts/BEBAS.svg#webfont) format('svg');
+	font-family:"Bebas";
+	font-weight:normal;
+}
+input[type=number] 	{
+	text-align:center;
+}
+body 	{
+	background:#EEEEEE url(../img/strip.png) repeat-x top;
+}
+.opts	{
+	display:none;
+}
+.margin	{
+	margin-bottom:20px;
+}
+.btn-hover	{
+	border-bottom-right-radius:0 !important;
+	border-bottom-left-radius:0 !important;
+}
+.btn-hover.active,
+.btn-hover.focus,
+.btn-hover:active,
+.btn-hover:focus	{
+	color:#fff;
+	background-color:#449d44;
+	border-color:#398439;
+}
+.progress-logo	{
+	background:url(../img/progress.png) no-repeat center center;
+	height:150px;
+	margin-top:5px;
+}
+.pemilu-caption	{
+	/*background:#6A6A6A;*/
+	margin-bottom:10px;
+	text-align:center;
+	font-family:"Bebas";
+	padding:0 10px;
+}
+.pemilu-caption h1	{
+	font-size:38px;
+	letter-spacing:1px;
+	word-spacing:4px;
+	line-height:1.5em;
+	color:#333;
+}
+.calon-caption	{
+	font-family:"Oswald";
+	font-size:30px;
+	text-align:center;
+	letter-spacing:1px;
+	word-spacing:3px;
+	line-height:1.5em;
+	color:#333;
+	margin-bottom:20px;
+}
+.candidate-number	{
+	font-family:"Oswald";
+	font-size:36px;
+	font-weight:bold;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+.candidate-name	{
+	font-family:"Oswald";
+	background:#787878;
+	color:#fff;
+	padding:5px 10px;
+	border-radius:4px;
+	margin-top:10px;
+	white-space: nowrap;
+	overflow:auto;
+	letter-spacing:1px;
+	word-spacing:2px;
+	line-height:1.5em;
+}
+.modal-body .candidate-name	{
+	text-align:center;
+	overflow:none !important;
+}
+.submit-btn	{
+	margin:60px 0;
+	text-align:center;
+}
+.submit-btn button	{
+	font-family:"Oswald";
+	letter-spacing:1px;
+	word-spacing:2px;
+	line-height:1.5em;
+	text-transform:uppercase;
+}
+.btn-visi-misi 	{
+	font-family:"Oswald";
+	letter-spacing:1px;
+	word-spacing:2px;
+	line-height:1.5em;
+	border-radius:0 0 4px 4px !important;
+	color: #fff;
+	background-color: #333;
+  	border-color: #1D1D1D;
+	padding:10px;
+}
+.btn-visi-misi:hover,
+.btn-visi-misi.active,
+.btn-visi-misi.focus,
+.btn-visi-misi:active,
+.btn-visi-misi:focus	{
+	color:#fff;
+	background-color:#2A2A2A;
+}
+.footer	{
+	font-family:"Oswald";
+	font-size:10px;
+	letter-spacing:1px;
+	word-spacing:2px;
+	line-height:1.5em;
+	text-align:center;
+	background:#333;
+	color:#fff;
+	padding:11px 10px 1px 10px;
+}
+.visi-misi-title	{
+	font-size:24px;
+	text-align:center;
+	font-weight:bold;
+	margin:15px 0;
+}
+.visi, .misi	{
+	line-height:1.5em;
+	word-spacing:1px;
+	text-align:justify;
+	font-size:14px;
+	margin:0 20px;
+}
+.visi ol, .misi ol 	{
+	padding-left:20px;
+}
+.visi li, .misi li {
+	margin-bottom:7px;
+}
+
+
+.fiximg	{
+	height:200px !important;
+}
+.fixbars	{
+	margin-top:40px;
+}
+.submit-btns button	{
+	font-family:"Oswald";
+	letter-spacing:1px;
+	word-spacing:2px;
+	line-height:1.5em;
+	text-transform:uppercase;
+	border-radius:0 !important;
+}
+
+
+
+body .bar_group__bar.thick::before,
+body .bar_group__bar.thick {
+	height:40px !important;
+}
+body .b_label, body .bar_label_min, body .bar_label_max {
+	font-family:"Oswald";
+  	color: #333 !important;
+  	font-size: 20px !important;
+}
+body .bar_label_min	{
+	margin-left:10px;
+}
+body .bar_label_max	{
+	margin-right:10px;
+}
+body .bar_label_min, body .bar_label_max	{
+	margin-top:8px;
+}
+body .b_tooltip	{
+	padding:10px !important;
+	margin-top:-10px;
+}
+body .b_tooltip span {
+	font-family:"Oswald";
+	font-size: 20px !important;
+}
